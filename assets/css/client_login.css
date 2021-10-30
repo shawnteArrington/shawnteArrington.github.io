@@ -1,0 +1,46 @@
+body {
+  	/*padding-top: 40px;*/
+  	padding-bottom: 40px;
+  	/*background-color: #eee;
+*/	}
+	.form-signin {
+		max-width: 330px;
+		padding: 15px;
+		margin: 0 auto;
+	}
+	.form-signin .form-signin-heading,
+	.form-signin .checkbox {
+		margin-bottom: 10px;
+	}
+	.form-signin-heading {
+		text-align: center;
+	}
+	.form-signin .checkbox {
+		font-weight: normal;
+	}
+	.form-signin .form-control {
+		position: relative;
+		height: auto;
+		-webkit-box-sizing: border-box;
+		    -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 10px;
+		font-size: 16px;
+	}
+	.form-signin .form-control:focus {
+		z-index: 2;
+	}
+	.form-signin input[id="inputEmail"], input[id="inputFirstName"], input[id="inputName"] {
+		margin-bottom: -1px;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	.form-signin input[id="inputPassword"], input[id="inputDateOfBirth"], textarea[id="inputComments"] {
+		margin-bottom: 10px;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	.form-signin input[id="inputLastName"], input[id="inputEmailRegister"], input[id="inputPasswordRegister"], input[id="inputPassword_Conf"], input[id="inputTitle"], input[id="inputCompany"], input[id="inputContactEmail"], input[id="inputWebsite"], input[id="inputRoleFill"], input[id="inputIndustry"] {
+		margin-bottom: -1px;
+		border-radius: 0;
+	}
